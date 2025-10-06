@@ -83,7 +83,7 @@ int main (){
     printf("Cidade: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome: %s\n", nomeCidade1);
-    printf("População: %lu", populacao1);
+    printf("População: %lu\n", populacao1);
     printf("Área em Km²: %.2f\n", area1);
     printf("PIB em bilhões de reais: %.2f\n", pib1);
     printf("Pontos Turísticos: %d\n", pontosTuristicos1);
@@ -98,7 +98,7 @@ int main (){
     printf("Cidade: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome: %s\n", nomeCidade2);
-    printf("População: %lu", populacao2);
+    printf("População: %lu\n", populacao2);
     printf("Área em Km²: %.2f\n", area2);
     printf("PIB em bilhões de reais: %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", pontosTuristicos2);
@@ -113,6 +113,7 @@ int main (){
     if (populacao1 > populacao2)
     {
         printf("Carta 1 - (AMAZONAS) (%s) venceu!\n", nomeCidade1);
+        
     } else if (populacao2 > populacao1)
     {
         printf("Carta 2 - (BRASILIA) (%s) venceu!\n", nomeCidade2);
@@ -122,10 +123,5 @@ int main (){
     }
     
     
-
-    
-
-
-
     return 0;
 }
